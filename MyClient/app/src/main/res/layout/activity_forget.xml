@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background2"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp">
+
+            <Button
+                android:id="@+id/L_relogin2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/buttonstyle3" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Please to be careful next time!"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_margin="12dp"
+                android:text="           Username:" />
+
+            <EditText
+                android:id="@+id/L_username2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Input your username"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_margin="12dp"
+                android:text="           telephone:" />
+
+            <EditText
+                android:id="@+id/L_telephone2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Input your telephone"/>
+
+            <Button
+                android:id="@+id/L_code"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:hint="code" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_margin="12dp"
+                android:text="           验证码:" />
+
+            <EditText
+                android:id="@+id/L_code2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Input your code"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_margin="12dp"
+                android:text="           Password:" />
+
+            <EditText
+                android:id="@+id/L_password12"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:inputType="textPassword"
+                android:hint="Input your password"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_margin="12dp"
+                android:text="           EnsurePw:" />
+
+            <EditText
+                android:id="@+id/L_password22"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="12dp"
+                android:inputType="textPassword"
+                android:hint="Ensure your password"/>
+        </TableRow>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+
+
+            <Button
+                android:id="@+id/L_Forget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:background="@drawable/buttonstyle2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="修改密码" />
+
+
+        </LinearLayout>
+    </TableLayout>
+</TableLayout>
